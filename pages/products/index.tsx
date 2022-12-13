@@ -78,5 +78,8 @@ index.getLayout = function getLayout(index: any) {
             <NestedLayout title="test">{index}</NestedLayout>
         </Layout>
     )
+
+   
+
 }
 

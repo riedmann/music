@@ -13,7 +13,7 @@ type Props = {}
 
 const URL = "https://lionfish-app-4qtef.ondigitalocean.app/products";
 
-export default function index({ data }: any) {
+export default function Index({ data }: any) {
     const [search, setSearch] = useState("")
     const [products, setProducts] = useState(data);
     const [filteredProducts, setFilteredProducts] = useState(data);
@@ -72,7 +72,7 @@ export async function getServerSideProps() {
     }
 }
 
-index.getLayout = function getLayout(index: any) {
+Index.getLayout = function getLayout(index: any) {
     return (
         <Layout title='Super Ding'>
             <NestedLayout title="test">{index}</NestedLayout>

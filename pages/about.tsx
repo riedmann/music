@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React, { useEffect } from 'react'
 
 
-export default function about({ props }: any) {
+export default function About({ props }: any) {
     console.log(props);
     useEffect(() => {
         fetch(`https://api.riedmann.rocks/siurana/items/products?fields=*.*.*&filter[issport]=1&status=published`).then((data) => {

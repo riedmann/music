@@ -1,0 +1,29 @@
+.card {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  max-width: 330px;
+}
+
+.cardtext {
+  padding: 1rem;
+}
+.cardimage{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+}
+
+.card h1{
+    margin:0;
+}
+
+.card h2{
+    margin:0;
+}
+.card h3{
+    margin:0;
+}
